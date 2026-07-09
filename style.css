@@ -40,3 +40,7 @@ nav button{
     color: #ffffff;
     border: none;
 }
+
+nav button:hover {
+    background-color: #64748b;
+}
