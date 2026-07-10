@@ -296,3 +296,26 @@ header {
 .featured-type {
     color: #93C5FD;
 }
+
+/* footer */
+
+footer{
+    background-color: #0D1B2A;
+    padding: 60px 56px;
+}
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.footer-left{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.footer-left a{
+    text-decoration: none;
+    color: #ffffff;
+}
