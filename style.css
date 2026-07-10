@@ -98,6 +98,55 @@ header {
     font-weight: 700;
 }
 
-.register-parent{
+.register-parent {
     margin-top: 90px;
+}
+
+/* Speaker Section */
+
+.speaker-parent {
+    text-align: center;
+    margin-top: 80px;
+    max-width: 1200px;
+    margin: 96px 150px;
+    padding: 0 48px;
+    justify-content: center;
+}
+
+.speaker-grid-parent {  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 48px;
+    gap: 32px;
+}
+
+.speaker-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f172a; 
+    letter-spacing: -1px;
+    justify-content: center;
+}
+
+.speaker-card{
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0; 
+    border-radius: 12px;          
+    overflow: hidden;   
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    text-align: left;
+}
+ 
+.card-content p {
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 400;
 }
