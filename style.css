@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Arimo", sans-serif;
 }
 
-.navbar{
-    
-}
 
-nav{
+/* Nav CSS start */
+.navbar {}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,23 +17,24 @@ nav{
     margin: auto;
 }
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
     gap: 20px;
-    
+
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: #64748b;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #0f172a;
 }
 
-nav button{
+/* Register Button */
+.register-btn {
     background-color: #1D4ED8;
     padding: 12px 12px;
     border-radius: 5px;
@@ -41,6 +42,62 @@ nav button{
     border: none;
 }
 
-nav button:hover {
+.register-btn:hover {
     background-color: #64748b;
+}
+
+/* Register Button */
+
+/* Nav CSS End */
+
+/* Banner */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 60px;
+}
+
+.header-content button {
+    /* padding: 12px 12px;
+    border-radius: 5px;
+    border: none; */
+    /*  */
+    /* font-size: 16px;
+    font-weight: 700;
+    padding: 12px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px; */
+    margin-top: 10px;
+    padding: 20px 35px;
+    justify-self: center;
+    font-size: 15px;
+}
+
+.header-content h1 {
+    font-size: clamp(36px, 5vw, 68px);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.header-content h1 em {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.register-parent{
+    margin-top: 90px;
 }
