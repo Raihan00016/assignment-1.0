@@ -6,7 +6,6 @@
 
 
 /* Nav CSS start */
-.navbar {}
 
 nav {
     display: flex;
@@ -195,6 +194,15 @@ header {
     /* list-style: none; */
     /* color: #93C5FD; */
     text-align: left;
+}
+
+.features-list li {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    /* color: #64748b; */
+    gap: 30px;
 }
 
 .features-list li::marker {
